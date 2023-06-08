@@ -1,3 +1,5 @@
+// Kintamuju inicijavimas
+
 // 1. Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
 // Po kiekvieno jų inicijavimo, išvesti į console
 
@@ -39,5 +41,9 @@ function num(n1,n2,n3,n4,n5) {
 const value9 = (`Namas`, `Namas1`, `Namas2`, `Namas3`, `Namas4`);
 const value10 = (`Lenta`, `Lenta1`, `Lenta2`, `Lenta3`, `Lenta4`);
 const value11 = (`Plyta`, `Plyta1`, `Plyta2`, `Plyta3`, `Plyta4`);
-const opa3 = value3 + ' ' + value4 + ' ' + value5;
+const opa3 = value9 + ' ' + value10 + ' ' + value11;
 console.log(opa3);
+
+
+
+    

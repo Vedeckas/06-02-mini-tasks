@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tasks1":"nodemon ./js/tasks1.js",
+    "vilius-task":"nodemon ./js/vilius-task.js",
     "tasks":"nodemon ./js/tasks.js",
     "dev":"nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
