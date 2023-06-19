@@ -20,10 +20,10 @@ console.log(opa1);
 // 3. Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių tipo reikšmėmis
 // Po kiekvieno jų inicijavimo, išvesti į console
 
-let value6 = (1, 2, 3, 4, 5);
-let value7 = (2, 3, 4, 5, 6);
-let value8 = (3, 4, 5, 6, 7);
-const opa2 = 'value6, value7, value8';
+const value6 = '1, 2, 3, 4, 5' + '\n'
+const value7 = '2, 3, 4, 5, 6' + '\n'
+const value8 = '3, 4, 5, 6, 7';
+const opa2 = value6 + value7 + value8;
 console.log(opa2);
 
 // nesupratau
@@ -38,11 +38,15 @@ function num(n1,n2,n3,n4,n5) {
 // 4. Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
 // Po kiekvieno jų inicijavimo, išvesti į console
 
-const value9 = (`Namas`, `Namas1`, `Namas2`, `Namas3`, `Namas4`);
-const value10 = (`Lenta`, `Lenta1`, `Lenta2`, `Lenta3`, `Lenta4`);
-const value11 = (`Plyta`, `Plyta1`, `Plyta2`, `Plyta3`, `Plyta4`);
-const opa3 = value9 + ' ' + value10 + ' ' + value11;
-console.log(opa3);
+// lyg ir supratau
+function num10(w1,w2,w3,w4,w5) {
+    return "\n"+w1+" "+w2+" "+w3+" "+w4+" "+w5;
+    }
+let value9 = num10('Namas', 'Namas1', 'Namas2', 'Namas3', 'Namas4');
+let value10 = num10(`Lenta`, `Lenta1`, `Lenta2`, `Lenta3`, `Lenta4`);
+let value11 = num10(`Plyta`, `Plyta1`, `Plyta2`, `Plyta3`, `Plyta4`);
+const opa3 = value9 + value10 + value11;
+console.log(value9, value10, value11);
 
 
 

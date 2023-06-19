@@ -63,8 +63,8 @@ const value = 0;
 const value1 = 1;
 const value2 = 2;
 const value3 = 0.9;
-function (value4){
+// function (value4){
 
-}
+// }
 
-console.log(value4);
+//console.log(value4);

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tasks2":"nodemon ./js/tasks2.js",
     "tasks1":"nodemon ./js/tasks1.js",
     "vilius-task":"nodemon ./js/vilius-task.js",
     "tasks":"nodemon ./js/tasks.js",
